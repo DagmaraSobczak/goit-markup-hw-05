@@ -82,6 +82,7 @@ margin-bottom: 25px;
 } 
 .menu:hover {
    color: #2196F3; 
+   cursor:pointer;
 }
 
 .address-data {
@@ -133,6 +134,7 @@ font-size: 16px;
 
 .address-data:hover {
    color: #2196F3; 
+   cursor:pointer;
 }
 
 h1 {
@@ -419,6 +421,7 @@ width: 270px;
   color:var(--hover-color);
    --color1: var(--hover-color);
   --color3: var(--hover2-color);
+  cursor:pointer;
 }
 .our-client-div {
 border: 1px solid #AFB1B8;
@@ -428,6 +431,7 @@ height: 92px;}
 
 .our-client-div:hover {
 border: 1px solid var(--hover-color);
+cursor:pointer;
 }
 .our-client-icon {
 width: 106px;
@@ -453,6 +457,7 @@ display: flex;
 .our-client-icon:hover{
   color:var(--hover-color);
    --color3: var(--hover-color);
+   cursor:pointer;
 
 }
 
@@ -469,10 +474,12 @@ display: flex;
 }
 .div-header-mail:hover{
   --color2: var(--hover-color);
+  cursor:pointer;
 
   }
   .div-header-smartphone:hover{
   --color2: var(--hover-color);
+  cursor:pointer;
 
 }
 .header-icon{
@@ -516,6 +523,7 @@ color:#FFFFFF;
 }
 .box-hover:hover{
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+cursor:pointer;
 }
 .figure-border{
 background: #FFFFFF;
@@ -534,6 +542,7 @@ margin-bottom: 30px;}
   color:var(--hover-color);
    --color1: var(--hover-color);
    --color3: var(--hover2-color);
+   cursor:pointer;
 }
 .our-client-icon4{
    --color4: #AFB1B8;
