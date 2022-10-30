@@ -36,7 +36,7 @@
         </div >
         <div class="header">
           <h1>EFEKTYWNE ROZWIĄZANIA <br>DLA WASZEGO BIZNESU</h1>
-        <button class="button-main-page" type="button">Zamów usługę</button>
+        <button class="button-main-page" type="button" data-modal-open>Zamów usługę</button>
       </div>
     </section>
     </header>
@@ -115,8 +115,7 @@
           <div class="label-background"></div><p class="label">Rozwiązania graficzne</p></div>
           </div>
                    </div>
-                  </div>
-  </section>
+                    </section>
   <section class="section section-our-team">
                   <h2 >Nasz zespół</h2> 
        <div class="our-team">
@@ -276,5 +275,11 @@
                   </div>
                 </footer>
           </main>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button type="button" class="close-btn" data-modal-close><span>X</span></button>
+            </div>
+          </div>
+          <script src="./js/modal.js"></script>
   </body>
 </html>
