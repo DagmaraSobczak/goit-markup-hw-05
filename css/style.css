@@ -138,8 +138,10 @@ figcaption span {
 
 .address-data:hover {
   color: #2196f3;
-  cursor: pointer;
-}
+  cursor: pointer;}*/
+
+
+
 
 h1 {
   font-style: normal;
@@ -459,7 +461,7 @@ img {
   --color2: var(--hover-color);
   cursor: pointer;
    color: #2196f3;
-}
+}*/
 .header-icon-mail {
   width: 16px;
   height: 12px;
