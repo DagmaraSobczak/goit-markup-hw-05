@@ -97,7 +97,7 @@ body {
   text-decoration: none;
   font-weight: 400;
   line-height: 1.7;
-  transition-property: color;
+  transition-property: color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -357,6 +357,9 @@ img {
   margin-bottom: 20px;
   margin-right: 100px;
   margin-left: 100px;
+
+
+  
 }
 
 .our-strengths-div {
@@ -375,11 +378,15 @@ img {
   margin-bottom: 18px;
   margin-right: 32px;
   margin-left: 32px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links-icon {
   width: 44px;
   height: 44px;
+  fill:rgba(255, 255, 255, 1);
 }
 
 .over-figure {
@@ -396,7 +403,7 @@ img {
 }
 .social-links-icon:hover {
   color: var(--hover-color);
-  --color1: var(--hover-color);
+  fill: var(--hover-color);
   --color3: var(--hover2-color);
   cursor: pointer;
 }
@@ -405,19 +412,25 @@ img {
   border-radius: 4px;
   width: 170px;
   height: 92px;
-  transition-property: border;
+  transition-property: border, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  
+  
 }
 
 .our-client-div:hover {
   border: 1px solid var(--hover-color);
   cursor: pointer;
-  --color3: var(--hover-color);
-  --color4: var(--hover-color);
+
+ 
 }
 .our-client-div:hover svg {
- --color4: var(--hover-color);
+ fill: var(--hover-color);
+ --color3: #2196f3;
+
+ 
 }
 .our-client-icon {
   width: 106px;
@@ -428,9 +441,10 @@ img {
   margin-bottom: 16px;
   gap: 30px;
   align-items: center;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  fill: rgba(175, 177, 184, 1);
+ 
+  
+
 }
 
 .our-client {
@@ -439,6 +453,8 @@ img {
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
+  
+  
 }
 .div-header-mail {
   margin-top: 32px;
@@ -450,29 +466,34 @@ img {
   flex-direction: row;
   align-items: center;
   margin-right: 30px;
-  transition-property: color;
+  transition-property: color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.div-header-mail:hover {
-  --color2: var(--hover-color);
-  cursor: pointer;
+.div-header-mail:hover svg {
+  fill: var(--hover-color);
+  cursor: pointer;}
+  .div-header-mail:hover a {
    color: #2196f3;
 }
-.div-header-smartphone:hover {
-  --color2: var(--hover-color);
-  cursor: pointer;
+.div-header-smartphone:hover svg {
+  fill: var(--hover-color);
+  cursor: pointer;}
+
+  .div-header-smartphone:hover a {
    color: #2196f3;
 }
 .header-icon-mail{
   width: 16px;
   height: 12px;
   gap: 10px;
+  fill:rgba(117, 117, 117, 1);
 }
 .header-icon-phone{
   width: 10px;
   height: 16px;
   gap: 10px;
+   fill:rgba(117, 117, 117, 1);
 }
 .div-header-smartphone {
   margin-top: 32px;
@@ -483,7 +504,7 @@ img {
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  transition-property: color;
+  transition-property: color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -498,6 +519,10 @@ img {
   width: 44px;
   height: 44px;
   gap: 10px;
+
+
+  
+  
 }
 .footer-position {
   display: flex;
@@ -524,21 +549,20 @@ img {
   height: 44px;
   gap: 10px;
   margin-top: 20px;
-  --color1: rgba(255, 255, 255, 0.1);
-  transition-property: color;
+  fill: rgba(255, 255, 255, 0.1);
+  transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links-icon-footer:hover {
   color: var(--hover-color);
-  --color1: var(--hover-color);
+  fill: var(--hover-color);
   --color3: var(--hover2-color);
   cursor: pointer;
 }
-.our-client-icon4 {
-  --color4: #afb1b8;
-}
+
+
 
 .thumb {
   display: flex;
@@ -621,15 +645,18 @@ img {
   left: 0px;
   top: 0px;
   background: rgba(0, 0, 0, 0.2);
-  transition: transform 250ms;
-  display: flex;
+    display: flex;
   position: fixed;
+  opacity: 1;
+    transition:visibility 250ms;
+    transition:opacity 250ms;
+    transition: transform 250ms;
 }
 .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transform: translateX(-100%);
+  transform: scale(0,5);
 }
 .close-btn {
   position: absolute;
