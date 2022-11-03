@@ -386,7 +386,8 @@ img {
 .social-links-icon {
   width: 44px;
   height: 44px;
-  fill:rgba(255, 255, 255, 1);
+  fill:#FFFFFF;
+  --color3:#afb1b8;
 }
 
 .over-figure {
@@ -493,7 +494,7 @@ img {
   width: 10px;
   height: 16px;
   gap: 10px;
-   fill:rgba(117, 117, 117, 1);
+  fill:rgba(117, 117, 117, 1);
 }
 .div-header-smartphone {
   margin-top: 32px;
