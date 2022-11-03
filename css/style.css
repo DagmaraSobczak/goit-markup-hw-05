@@ -386,8 +386,8 @@ img {
 .social-links-icon {
   width: 44px;
   height: 44px;
-  fill:#FFFFFF;
-  --color3:#afb1b8;
+  fill:#afb1b8;
+  
 }
 
 .over-figure {
@@ -404,8 +404,8 @@ img {
 }
 .social-links-icon:hover {
   color: var(--hover-color);
-  fill: var(--hover-color);
-  --color3: var(--hover2-color);
+  fill: var(--hover2-color);
+  --color3: 
   cursor: pointer;
 }
 .our-client-div {
@@ -558,7 +558,7 @@ img {
 
 .social-links-icon-footer:hover {
   color: var(--hover-color);
-  fill: var(--hover-color);
+  fill: var(--hover2-color);
   --color3: var(--hover2-color);
   cursor: pointer;
 }
