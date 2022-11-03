@@ -378,15 +378,16 @@ img {
   margin-bottom: 18px;
   margin-right: 32px;
   margin-left: 32px;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .social-links-icon {
   width: 44px;
   height: 44px;
   fill:#afb1b8;
+  transition-property: fill  background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 
@@ -413,7 +414,7 @@ img {
   border-radius: 4px;
   width: 170px;
   height: 92px;
-  transition-property: border, fill;
+  transition-property: border fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -443,7 +444,9 @@ img {
   gap: 30px;
   align-items: center;
   fill: rgba(175, 177, 184, 1);
- 
+   transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  
   
 
@@ -490,12 +493,18 @@ img {
   height: 12px;
   gap: 10px;
   fill:rgba(117, 117, 117, 1);
+   transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-icon-phone{
   width: 10px;
   height: 16px;
   gap: 10px;
   fill:rgba(117, 117, 117, 1);
+     transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .div-header-smartphone {
   margin-top: 32px;
@@ -557,7 +566,7 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
   fill: rgba(255, 255, 255, 1);
   border-radius:50% ;
-  transition-property: fill;
+   transition-property: fill  background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -627,7 +636,7 @@ img {
   transform: translateY(100%);
   background-color: rgba(33, 150, 243, 0.9);
 }
-.box:hover .overlay {
+.box-hover:hover .overlay {
   transform: translateY(0);
   transition: transform 250ms ease;
 }
