@@ -648,9 +648,7 @@ img {
     display: flex;
   position: fixed;
   opacity: 1;
-    transition:visibility 250ms;
-    transition:opacity 250ms;
-    transition: transform 250ms;
+    transition: transform 250ms, opacity 250ms, visibility 250ms;
 }
 .is-hidden {
   opacity: 0;
