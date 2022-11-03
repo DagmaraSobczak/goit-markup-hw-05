@@ -405,7 +405,7 @@ img {
 .social-links-icon:hover {
   color: var(--hover-color);
   fill: var(--hover2-color);
-  --color3: 
+  background-color: var(--hover-color);
   cursor: pointer;
 }
 .our-client-div {
@@ -443,6 +443,7 @@ img {
   gap: 30px;
   align-items: center;
   fill: rgba(175, 177, 184, 1);
+ 
  
   
 
@@ -520,6 +521,9 @@ img {
   width: 44px;
   height: 44px;
   gap: 10px;
+  fill: rgba(175, 177, 184, 1);
+  background-color:rgba(255, 255, 255, 1);
+  border-radius:50% ;
 
 
   
@@ -550,7 +554,9 @@ img {
   height: 44px;
   gap: 10px;
   margin-top: 20px;
-  fill: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: rgba(255, 255, 255, 1);
+  border-radius:50% ;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -559,11 +565,10 @@ img {
 .social-links-icon-footer:hover {
   color: var(--hover-color);
   fill: var(--hover2-color);
-  --color3: var(--hover2-color);
+  background-color:var(--hover-color);
   cursor: pointer;
 }
-
-
+ 
 
 .thumb {
   display: flex;
